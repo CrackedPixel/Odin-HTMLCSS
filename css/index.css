@@ -17,8 +17,7 @@ header {
     padding-left: 20px;
     width: auto;
     height: 50px;
-    margin: 1rem 0 1rem 0;
-    
+    margin: 1rem 0 1rem 0;   
 }
 
 h1 {
@@ -57,6 +56,7 @@ h1 {
     font-size: 1.6rem;
     width: 7rem;
 }
+
 .searchBtn:hover {
     border: 1px solid grey;
     background-color: rgb(238, 238, 238);
@@ -66,6 +66,7 @@ h1 {
 .topNavIcons {
     margin-right: 20px;
 }
+
 .topNavIcons i {
     margin: 0.7rem;
     font-size: 1.8rem;
@@ -119,6 +120,7 @@ main section {
     margin-top: 1rem;
     flex-grow: 1;
 }
+
 .videoDesc {
     display: flex;
     border-top: 1px solid rgb(211, 211, 211);
@@ -126,6 +128,7 @@ main section {
     padding-top: 10px;
     padding-bottom: 20px;   
 }
+
 .videoInfoBox {
     flex-grow: 1;
 }
@@ -133,6 +136,7 @@ main section {
 .videoInfoBox h4 {
     margin: 0;
 }
+
 .videoInfoBox span {
     color: rgb(141, 141, 141);
     font-size: 1.4rem;
@@ -170,9 +174,11 @@ aside {
     align-items: center;
     justify-content: flex-end;
 }
+
 .relatedTopBar h3 {
     flex-grow: 1;
 }
+
 .fa-2x {
     justify-self: flex-end;
     color: blue;
@@ -191,6 +197,7 @@ aside .relatedGroup:nth-of-type(2){
     height: fit-content;
     margin: 0.5rem 2rem 0.5rem 0.5rem;
 }
+
 .relatedGroupContent {
     display: flex;
     flex-flow: column wrap;
@@ -206,6 +213,7 @@ aside .relatedGroup:nth-of-type(2){
     width: 100%;
     height: auto;
 }
+
 .thumbnail {
     width: 168px;
     height: 120px;
