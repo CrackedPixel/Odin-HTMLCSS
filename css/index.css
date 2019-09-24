@@ -29,7 +29,6 @@ h1 {
     margin-left: 2rem;
 }
 
-
 .searchBar {
     display: flex;
     width: 50%;
@@ -63,6 +62,18 @@ h1 {
     color: grey;
 }
 
+.viewsThumbs i {
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+.commentTopBar i {
+    font-size: 1.5rem;
+}
+
+.commentLikeReply i {
+    margin-right: 2rem;
+}
+
 .topNavIcons {
     margin-right: 20px;
 }
@@ -75,7 +86,6 @@ h1 {
 .topNavIcons i:last-child {
     font-size: 2.8rem;
 }
-
 
 main {
     display: flex;
@@ -112,10 +122,6 @@ main section {
     flex-flow: row nowrap;
 }
 
-.viewsThumbs i {
-    margin: 0 0.8rem 0 0.8rem;
-}
-
 .viewsThumbs h4 {
     margin-top: 1rem;
     flex-grow: 1;
@@ -141,6 +147,7 @@ main section {
     color: rgb(141, 141, 141);
     font-size: 1.4rem;
 }
+
 .videoIcon {
     width: 50px;
     height: 50px;
@@ -158,8 +165,6 @@ main section {
 .subscribeBtn:hover {
     cursor: pointer;
 }
-
-
 
 aside {
     display: flex;
@@ -185,17 +190,17 @@ aside {
     margin: 1rem;
 }
 
-aside .relatedGroup:nth-of-type(2){
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: 2rem;
-    margin-bottom: 1.5rem;
-}
-
 .relatedGroup {
     display: flex;
     width: 100%;
     height: fit-content;
     margin: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+aside .relatedGroup:nth-of-type(2) {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .relatedGroupContent {
@@ -219,7 +224,6 @@ aside .relatedGroup:nth-of-type(2){
     height: 120px;
 }
 
-
 .commentTopBar {
     display: flex;
     align-items: baseline;
@@ -229,10 +233,6 @@ aside .relatedGroup:nth-of-type(2){
 .commentTopBar span {
     margin-right: 3rem;
     font-size: 1.8rem;
-}
-
-.commentTopBar i {
-    font-size: 1.5rem;
 }
 
 .commentTextBar {
@@ -280,8 +280,4 @@ article .commentIcon {
     flex-flow: row nowrap;
     margin-top: 1rem;
     color: grey;
-}
-
-.commentLikeReply i {
-    margin-right: 2rem;
 }
