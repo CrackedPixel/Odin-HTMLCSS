@@ -1,1 +1,279 @@
+html {
+    font-size: 62.5%;
+}
 
+body {
+    font-size: 1.6rem;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: auto;
+    height: 50px;
+    margin: 1rem 0 1rem 0;
+    
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.mainLogo {
+    height: 100%;
+    margin-left: 2rem;
+}
+
+
+.searchBar {
+    display: flex;
+    width: 50%;
+    height: 3.2rem;
+    margin: 0 auto 0 auto;
+}
+
+.searchText {
+    border: 1px solid rgba(133, 133, 133, 0.301);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+.searchBtn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgba(133, 133, 133, 0.164);
+    background-color: rgb(238, 238, 238);
+    color: rgb(173, 173, 173);
+    font-size: 1.6rem;
+    width: 7rem;
+}
+.searchBtn:hover {
+    border: 1px solid grey;
+    background-color: rgb(238, 238, 238);
+    color: grey;
+}
+
+.topNavIcons {
+    margin-right: 20px;
+}
+.topNavIcons i {
+    margin: 0.7rem;
+    font-size: 1.8rem;
+}
+
+.topNavIcons i:last-child {
+    font-size: 2.8rem;
+}
+
+
+main {
+    display: flex;
+    width: auto;
+    margin: 20px;
+}
+
+main section {
+    width: 70%;
+    padding-right: 2rem;
+    padding-top: 1.7rem;
+}
+
+.videoFrame {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.videoFrame iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.viewsThumbs {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    flex-flow: row nowrap;
+}
+
+.viewsThumbs i {
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+.viewsThumbs h4 {
+    margin-top: 1rem;
+    flex-grow: 1;
+}
+.videoDesc {
+    display: flex;
+    border-top: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-top: 10px;
+    padding-bottom: 20px;   
+}
+.videoInfoBox {
+    flex-grow: 1;
+}
+
+.videoInfoBox h4 {
+    margin: 0;
+}
+.videoInfoBox span {
+    color: rgb(141, 141, 141);
+    font-size: 1.4rem;
+}
+.videoIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+}
+
+.subscribeBtn {
+    height: 40px;
+    color: white;
+    background-color: rgb(206, 0, 0);
+    border: 1px solid darkred;
+}
+
+.subscribeBtn:hover {
+    cursor: pointer;
+}
+
+
+
+aside {
+    display: flex;
+    width: 30%;
+    color: grey;
+    align-content: flex-start;
+    flex-flow: column nowrap;
+}
+
+.relatedTopBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.relatedTopBar h3 {
+    flex-grow: 1;
+}
+.fa-2x {
+    justify-self: flex-end;
+    color: blue;
+    margin: 1rem;
+}
+ 
+aside .relatedGroup:nth-of-type(2){
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+} 
+
+.relatedGroup {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin: 0.5rem 2rem 0.5rem 0.5rem;
+}
+.relatedGroupContent {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    margin: 0.5rem;
+} 
+
+.relatedGroupContent h4 {
+    margin: 0;
+}
+
+.relatedGroupContent span {
+    width: 100%;
+    height: auto;
+}
+.thumbnail {
+    width: 168px;
+    height: 120px;
+}
+
+
+.commentTopBar {
+    display: flex;
+    align-items: baseline;
+    margin: 2rem 0 2rem;
+}
+
+.commentTopBar span {
+    margin-right: 3rem;
+    font-size: 1.8rem;
+}
+
+.commentTopBar i {
+    font-size: 1.5rem;
+}
+
+.commentTextBar {
+    display: flex;
+    width: 100%;
+}
+
+.commentTextBar input {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 2rem;
+    align-self: center;
+    width: auto;
+    flex-grow: 1;
+    font-size: 1.4rem;
+}
+
+.commentWhole {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+article .commentIcon {
+    font-size: 5rem;
+}
+
+.commentContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 2rem;
+}
+
+.commentContainer h4 {
+    margin: 0 0 0.3rem 0;
+}
+
+.commentContainer h4 span {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.commentLikeReply {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 1rem;
+    color: grey;
+}
+
+.commentLikeReply i {
+    margin-right: 2rem;
+}

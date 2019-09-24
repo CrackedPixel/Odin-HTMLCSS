@@ -2,23 +2,187 @@
 <html lang="en-us">
     <head>
         <title>YouTube Video</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header> <!-- Logo, search, login, etc, etc -->
-
+            <i class="fa fa-bars"></i>
+            <img class="mainLogo" src="img/logo.png" alt="Company logo">
+            <form class="searchBar">
+                <input class="searchText" type="search" placeholder="Search">
+                <button class="searchBtn"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="topNavIcons">
+                <i class="fa fa-play"></i>
+                <i class="fa fa-th"></i>
+                <i class="fa fa-share"></i>
+                <i class="fa fa-bell"></i>
+                <i class="fa fa-user"></i>
+            </div>
         </header>
         <main> <!-- full page, after the header -->
-            <content> <!-- Video player section -->
-                <article> <!-- video player -->
-                </article>
+            <section> <!-- Video player section -->
+                <div class="videoFrame">
+                    <iframe width="100" height="100" src="https://www.youtube.com/embed/_EGbFA8zkpo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <article> <!-- video info bar -->
+                    <h1>Artificial Language - The Silver Cord (Audio Stream)</h1>
+                    <div class="viewsThumbs">
+                        <h4>7,606 views</h4>
+                        <span><i class="fa fa-thumbs-up"></i>88</span>
+                        <span><i class="fa fa-thumbs-down"></i>3</span>
+                        <span><i class="fa fa-share"></i>SHARE</span>
+                        <span><i class="fa fa-align-left"></i>SAVE</span>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
                 </article>
-                <article> <!-- video description thing -->
+                <article class="videoDesc"> <!-- video description thing -->
+                    <span class="videoIcon"><i class="fa fa-circle"></i></span>
+                    <div class="videoInfoBox">
+                        <h4>Artificial Language</h4>
+                        <span>Published on Apr 29, 2017</span>
+                        <p>"The Silver Cord" Off of the debut album "The Observer"</p>
+                        <p>Get "The Observer" NOW!</p>
+                        <span>SHOW MORE</span>
+                    </div>
+                    <button class="subscribeBtn">SUBSCRIBE 2.91k</button>
                 </article>
                 <article> <!-- video comments -->
+                    <div class="commentTopBar">
+                        <span>7 Comments</span>
+                        <i class="fa fa-align-left"> <b>SORT BY</b></i>
+                    </div>
+                    <div class="commentTextBar">
+                        <i class="fa fa-circle commentIcon"></i>
+                        <input type="text" placeholder="Add a public comment...">
+                    </div>
+
+
+                    <div class="commentWhole">
+                        <i class="fa fa-circle commentIcon"></i>
+                        <div class="commentContainer">
+                            <h4>Username Here <span>2 years ago</span></h4>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in neque sit amet massa ullamcorper finibus. Vivamus commodo leo ut ante venenatis rhoncus. Quisque non dolor eget felis tincidunt tempus eget a mi. </span>
+                            <div class="commentLikeReply">
+                                <i class="fa fa-thumbs-up"> 3</i>
+                                <i class="fa fa-thumbs-down"></i>
+                                <span>REPLY</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="commentWhole">
+                        <i class="fa fa-circle commentIcon"></i>
+                        <div class="commentContainer">
+                            <h4>Username Here <span>2 years ago</span></h4>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in neque sit amet massa ullamcorper finibus. Vivamus commodo leo ut ante venenatis rhoncus. Quisque non dolor eget felis tincidunt tempus eget a mi. </span>
+                            <div class="commentLikeReply">
+                                <i class="fa fa-thumbs-up"> 3</i>
+                                <i class="fa fa-thumbs-down"></i>
+                                <span>REPLY</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="commentWhole">
+                            <i class="fa fa-circle commentIcon"></i>
+                            <div class="commentContainer">
+                                <h4>Username Here <span>2 years ago</span></h4>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in neque sit amet massa ullamcorper finibus. Vivamus commodo leo ut ante venenatis rhoncus. Quisque non dolor eget felis tincidunt tempus eget a mi. </span>
+                                <div class="commentLikeReply">
+                                    <i class="fa fa-thumbs-up"> 3</i>
+                                    <i class="fa fa-thumbs-down"></i>
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
                 </article>
-            </content>
+            </section>
             <aside> <!-- Up Next Sidebar thing-->
+                <div class="relatedTopBar">
+                    <h3>Up next</h3>
+                    <span>AUTOPLAY</span>
+                    <i class="fa fa-toggle-on fa-2x"></i>
+                </div>
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+    
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+    
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+    
+
+                <div class="relatedGroup">
+                    <img class="thumbnail" src="img/thumbnail.jpg" alt="video thumbnail for something">
+                    <div class="relatedGroupContent">
+                        <h4>Title Here</h4>
+                        <span>Uploader Name</span>
+                    </div>
+                </div>
+    
+                
             </aside>
         </main>
     </body>
